@@ -1,0 +1,18 @@
+.thirdcard {
+    color: pink;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: grid;
+    padding: 5%;
+
+}
+
+.socialsharingsection {
+    display: grid;
+    padding-top: 20%;
+}
