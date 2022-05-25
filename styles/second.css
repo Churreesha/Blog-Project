@@ -2,8 +2,6 @@
     color: purple;
 }
 
-
-
 .socialsection {
     display: grid;
 }
@@ -43,11 +41,13 @@ img {
 body{
     font-family: montserrat;
 }
+
 nav{
     background: pink;
     height: 80px;
     width: 100%;
 }
+
 label.logo{
     color: white;
     font-size: 35px;
@@ -55,15 +55,18 @@ label.logo{
     padding: 0 100px;
     font-weight: bold;
 }
+
 nav ul{
     float: right;
     margin-right: 100px;
 }
+
 nav ul li{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
 }
+
 nav ul li a{
     color: white;
     font-size: 17px;
@@ -71,6 +74,7 @@ nav ul li a{
     border-radius: 3px;
     text-transform: uppercase;
 }
+
 a.active,a:hover{
     background: fuchsia;
     transition: .5s;
