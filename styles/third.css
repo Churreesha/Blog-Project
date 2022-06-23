@@ -1,5 +1,19 @@
 .thirdcard {
-    color: pink;
+  --card-max-width: 400px;
+  --shared-opactiy: 0.7;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  max-width: var(--card-max-width);
+  background-color: pink;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2.5rem;
+  padding-bottom: 1.0rem;
+  padding-top: 1.0rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  font-size: xx-large;
+
 }
 
 a {
