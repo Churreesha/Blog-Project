@@ -1,18 +1,18 @@
 .secondcard {
-  --card-max-width: 400px;
-  --shared-opactiy: 0.7;
-  border-radius: 0.5rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  max-width: var(--card-max-width);
-  background-color: pink;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 2.5rem;
-  padding-bottom: 1.0rem;
-  padding-top: 1.0rem;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-weight: 500;
-  font-size: xx-large;
+    --card-max-width: 400px;
+    --shared-opactiy: 0.7;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    max-width: var(--card-max-width);
+    background-color: pink;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2.5rem;
+    padding-bottom: 1.0rem;
+    padding-top: 1.0rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: xx-large;
 
 }
 
@@ -32,57 +32,65 @@ img {
     width: 50%
 }
 
-.Lotus{
+.Lotus {
     display: flex;
 }
 
-.Lavender{
+.Lavender {
     display: flex;
 }
 
-.Peony{
+.Peony {
     display: flex;
 }
 
-*{
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: montserrat;
 }
-nav{
+
+nav {
     background: pink;
     height: 80px;
     width: 100%;
 }
-label.logo{
+
+label.logo {
     color: white;
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
 }
-nav ul{
+
+nav ul {
     float: right;
     margin-right: 100px;
 }
-nav ul li{
+
+nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
 }
-nav ul li a{
+
+nav ul li a {
     color: white;
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
     text-transform: uppercase;
 }
-a.active,a:hover{
+
+a.active,
+a:hover {
     background: fuchsia;
     transition: .5s;
 }
