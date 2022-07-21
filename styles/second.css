@@ -94,3 +94,88 @@ a:hover {
     background: fuchsia;
     transition: .5s;
 }
+
+/* Making site responsive for small screens */
+@media (min-width: 200px) and (max-width: 700px) {
+    nav {
+        background: pink;
+        height: 80px;
+        width: 100%;
+    }
+
+    label.logo {
+        color: white;
+        font-size: 17px;
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+    }
+
+    nav ul {
+        float: right;
+        margin-right: 60px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 2 9px;
+    }
+
+    nav ul li a {
+        color: indigo;
+        font-size: 17px;
+        padding: 5px 10px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+
+    * {
+        padding: 2px;
+        margin: 5px;
+        text-decoration: none;
+        list-style: none;
+        box-sizing: border-box;
+    }
+
+
+
+}
+
+/* Making site responsive for medium screens */
+@media (min-width: 700px) and (max-width: 900px) {
+    nav {
+        background: pink;
+        height: 80px;
+        width: 100%;
+    }
+
+    label.logo {
+        color: white;
+        font-size: 15px;
+        line-height: 80px;
+        padding: 0 100px;
+        font-weight: bold;
+    }
+
+    nav ul {
+        float: right;
+        margin-right: 70px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 2 9px;
+    }
+
+    nav ul li a {
+        color: indigo;
+        font-size: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+
+
+}
